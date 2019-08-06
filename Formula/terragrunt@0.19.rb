@@ -14,7 +14,7 @@ class TerragruntAT019 < Formula
 
   depends_on "dep" => :build
   depends_on "go" => :build
-  depends_on "terraform"
+  depends_on "homebrew/core/terraform"
   conflicts_with "terragrunt", :because => "This tap will install terragrunt aswell"
 
   def install
